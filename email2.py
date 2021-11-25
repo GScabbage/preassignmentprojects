@@ -3,7 +3,7 @@ import smtplib, ssl
 port = 465  # For SSL
 password = "bBV:`T4qJwL}}&5H"
 sender_email = "sparta.vulnad@gmail.com"
-receiver_email = "sparta.vulnad@gmail.com"
+receiver_email = "georgeswirsky@gmail.com"
 message = """\
 Subject: Jenkins CICD Notifcation of Build Success
 
