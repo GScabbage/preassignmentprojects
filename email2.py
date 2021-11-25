@@ -5,9 +5,9 @@ password = "bBV:`T4qJwL}}&5H"
 sender_email = "sparta.vulnad@gmail.com"
 receiver_email = "sparta.vulnad@gmail.com"
 message = """\
-Subject: Hi there
+Subject: Jenkins CICD Notifcation of Build Success
 
-This message is sent from Python."""
+This is to notify that your build has been successful for your Jenkins CICD Project, Congrats!"""
 # Create a secure SSL context
 context = ssl.create_default_context()
 
