@@ -58,6 +58,10 @@ sudo service jenkins start
 - install `CloudBees Docker Build and Publish plugin`
 - this doesn't require a restart to work but is probably advised
 
+### Jenkins Won't Start after stop
+- Run `ps auxw | grep jenkins`
+- Then kill all processes that come up
+
 ## Jenkins Job
 - Once you have done the standard job setup, select the Github Project tickbox and add your https link to it
 - Next set up the ssh keys to be able to interact with your repository
